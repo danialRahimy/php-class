@@ -6,8 +6,8 @@
  * date created: 2020/10/04
  * author: Danial Rahimi
  * email: daniel_rahimi@outlook.com
- * github page: https://github.com/free-byte
- * repository page on github: https://github.com/free-byte/php-class
+ * github page: https://github.com/danialRahimy
+ * repository page on github: https://github.com/danialRahimy/php-class
  */
 
 

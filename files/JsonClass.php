@@ -1,5 +1,15 @@
 <?php
 
+/**
+ * Class JsonClass
+ *
+ * date created: 2020/26/04
+ * author: Danial Rahimi
+ * email: daniel_rahimi@outlook.com
+ * github page: https://github.com/danialRahimy
+ * repository page on github: https://github.com/danialRahimy/php-class
+ */
+
 
 class JsonClass
 {
