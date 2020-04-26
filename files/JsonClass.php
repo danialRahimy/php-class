@@ -4,6 +4,7 @@
  * Class JsonClass
  *
  * date created: 2020/26/04
+ * date update: 2020/27/04
  * author: Danial Rahimi
  * email: daniel_rahimi@outlook.com
  * github page: https://github.com/danialRahimy
@@ -30,7 +31,11 @@ class JsonClass
      */
     public function getData (){
 
-        return json_decode(file_get_contents($this->fileAddress),JSON_UNESCAPED_UNICODE | JSON_OBJECT_AS_ARRAY);
+        if (file_exists($this->fileAddress)){
+            return json_decode(file_get_contents($this->fileAddress),JSON_UNESCAPED_UNICODE | JSON_OBJECT_AS_ARRAY);
+        }
+
+        return "";
 
     }
 
