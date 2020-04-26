@@ -10,3 +10,7 @@ it's just **beginning** :D
 #### Encode And Decode
 * Base64Class
     * image to base64
+    
+#### Files
+* JsonCLass
+    * get and put data
