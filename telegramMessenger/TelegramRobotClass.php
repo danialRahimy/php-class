@@ -37,12 +37,12 @@ class TelegramRobotClass
 
     /**
      * @param array $messages
-     * @param string $user without @
+     * @param string $user // Target Username: @user or Target ID: -646234946
      */
     public function sendTextMassage($messages, $user)
     {
         for ($i = 0 ; $i < count($messages) ; $i++){
-            $url = "https://api.telegram.org/bot" . $this->api . "/sendMessage?chat_id=@" . $user . "&text=" . urlencode($messages[$i]) . "&parse_mode=html";
+            $url = "https://api.telegram.org/bot" . $this->api . "/sendMessage?chat_id=" . $user . "&text=" . urlencode($messages[$i]) . "&parse_mode=html";
             file_get_contents($url);
         }
 
